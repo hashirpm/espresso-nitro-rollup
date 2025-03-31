@@ -1,0 +1,52 @@
+[
+    {
+        "chain-name": "arb-dev-test",
+        "parent-chain-id": 421614,
+        "parent-chain-is-arbitrum": true,
+        "sequencer-url": "",
+        "secondary-forwarding-target": "",
+        "feed-url": "",
+        "secondary-feed-url": "",
+        "das-index-url": "",
+        "has-genesis-state": false,
+        "chain-config": {
+            "chainId":  98456732,
+            "homesteadBlock": 0,
+            "daoForkSupport": true,
+            "eip150Block": 0,
+            "eip150Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "eip155Block": 0,
+            "eip158Block": 0,
+            "byzantiumBlock": 0,
+            "constantinopleBlock": 0,
+            "petersburgBlock": 0,
+            "istanbulBlock": 0,
+            "muirGlacierBlock": 0,
+            "berlinBlock": 0,
+            "londonBlock": 0,
+            "clique": {
+                "period": 0,
+                "epoch": 0
+            },
+            "arbitrum": {
+                "EnableArbOS": true,
+                "AllowDebugPrecompiles": true,
+                "DataAvailabilityCommittee": false,
+                "InitialArbOSVersion": 32,
+                "InitialChainOwner": "0xF8931B4C90d962d068f3655cd367171AeC747eC4",
+                "GenesisBlockNum": 0
+            }
+        },
+        "rollup": {
+            "bridge": "0x8Dc324c93164a5d216d178b26E7412f97B025C62",
+            "inbox": "0x15884218862972b190152c3e02E0C9583863b2F0",
+            "sequencer-inbox": "0x243A3B17E0F79732f380B9Fa6B68A56E0D438613",
+            "deployed-at": 137355745,
+            "rollup": "0x44243e110814361Ed0511d2857a5C7F911781d10",
+            "native-token": "0x0000000000000000000000000000000000000000",
+            "upgrade-executor": "0x1b871E36cad73cAbaC8668C0da88C9eE57c38970",
+            "validator-utils": "0xccEdeD361d3E1cCb564C49Dba119952d97739e84",
+            "validator-wallet-creator": "0x5AA0F82995befFdF642C3216dc2E98DB301EF61a"
+        }
+    }
+]
